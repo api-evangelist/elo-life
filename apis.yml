@@ -1,22 +1,76 @@
 aid: elo-life
 name: Elo Life
-description: Elo Life is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/elo-life/refs/heads/main/apis.yml
+kind: company
+description: >-
+  Elo Life Systems is a next-generation food and agriculture company based in Research Triangle
+  Park, North Carolina, using molecular farming and gene-editing to turn high-yield crops into
+  biofactories for natural food ingredients. Its lead product is a low-calorie, high-potency
+  natural sweetener inspired by monk fruit that is designed to taste like sugar while replacing
+  both sugar and artificial sweeteners at a lower cost. Elo also partners with Dole to develop a
+  fungus-resistant (TR4/Fusarium wilt) Cavendish banana. Backed by DCVC Bio and Novo Holdings,
+  the company raised an oversubscribed $20.5M Series A2 to scale its molecular-farming platform.
+  Elo Life is a food-tech / agricultural-biotech company and does not currently publish a public
+  developer API; this profile captures its identity and public web properties.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://elolife.com/wp-content/uploads/2023/03/Featured-Image-Home-FizzyDrink-1920x1280.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
-specificationVersion: '0.20'
-created: '2026-07-17'
-modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Agriculture
+- Food Technology
+- Molecular Farming
+- Sweeteners
+- Gene Editing
+- AgTech
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-19'
 apis: []
+common:
+- type: Website
+  url: https://elolife.com/
+- type: About
+  url: https://elolife.com/who-we-are/
+- type: Blog
+  url: https://elolife.com/news-pressreleases-blog/
+- type: Support
+  url: https://elolife.com/contact-us/
+- type: Careers
+  url: https://elolife.com/life-at-elo/
+- type: PrivacyPolicy
+  url: https://elolife.com/privacy-policy/
+- type: TermsOfService
+  url: https://elolife.com/website-terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elo-lifesystems
+- type: Twitter
+  url: https://twitter.com/elolifesystems
+- type: DomainSecurity
+  url: security/elo-life-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
