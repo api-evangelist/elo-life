@@ -12,6 +12,17 @@ description: >-
   the company raised an oversubscribed $20.5M Series A2 to scale its molecular-farming platform.
   Elo Life is a food-tech / agricultural-biotech company and does not currently publish a public
   developer API; this profile captures its identity and public web properties.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
